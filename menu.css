@@ -1,0 +1,115 @@
+h1,h2,p{
+	text-align:center;
+}
+
+body{
+  background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+h1{
+  font-size: 40px;
+  margin-top: 0px;
+   margin-bottom: 15px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.menu{
+	width:300px;
+	background-color:burlywood;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   margin-top: -25px;
+}
+
+hr {
+  height: 2px;
+  background-color:brown;
+  border-color: rosybrown;
+}
+
+.flavor,.dessert{
+  text-align:left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 50%;
+}
+
+.item p {
+display:inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
+ }
+
+ h1,h2{
+  font-family:Impact, serif;
+}
+
+.start{
+  font-style: italic;
+}
+
+.bottom-line{
+  margin-top: 25px;
+}
+
+/*FOOTER*/
+footer{
+  font-size: 14px;
+}
+
+a{
+  color:black;
+}
+
+a:visited{ 
+  color: black;
+   }
+a:hover{
+  color: brown;
+}
+
+a:active{
+  color:brown;
+}
+
+
+.address{
+  margin-bottom: 5px;
+}
+
+
+/*1.)**The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this.
+
+You can use the id selector to target a specific element with an id attribute. An id selector is defined by placing the hash symbol # directly in front of the element's id value. For example, if an element has the id of cat then you would target that element like this:
+
+#cat {
+  width: 250px;
+}
+Use the #menu selector to give your element a width of 300px.*/
+
+/*2.)**Now it's easy to see that the text is centered inside the #menu element. Currently, the width of the #menu element is specified in pixels (px).
+
+Change the width property's value to be 80%, to make it 80% the width of its parent element (body).*/
+
+/*3.)**Next, you want to center the #menu horizontally. You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element. Using these two margin properties, center the #menu element within the body element.*/
+
+/*4.)You can give your menu some space between the content and the sides with various padding properties.
+
+Give the menu class a padding-left and a padding-right with the same value 20px.*/
